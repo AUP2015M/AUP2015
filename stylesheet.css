@@ -1,0 +1,114 @@
+body {
+	background-color: rgb(0,153,216);
+	}
+.gey {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	}
+.pohh {
+	font-family: Calibri;
+	color: white;
+	font-size: 3vw;
+	font-weight: 200;
+	text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	}
+	
+	
+.pohh2 {
+	font-family: Calibri;
+	color: white;
+	font-size: 2vw;
+	font-weight: 200;
+	text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	}
+
+.khk {
+	width: 25%;
+	height:auto;
+	position: fixed;
+	bottom: 5%;
+	left: 37.5%
+	}
+	
+.kopli {
+	color: white;
+	font-family: Calibri;
+	font-size: 6vw;
+	font-weight:200;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+	}
+.oppehoone {
+	text-align: center;
+	color: white;
+	font-family: Calibri;
+	font-size: 2vw;
+	font-weight:200;
+	letter-spacing: 0.35vw;
+	margin-bottom: 0;
+	margin-top: 0;
+	}
+.ko {
+	width: 20%;
+	position: fixed;
+	left: 29.5%;
+	bottom: 45%;
+	border-style: solid rgb(0,153,216);
+    border-right: solid white;
+	}
+	
+.pollu {
+	color: white;
+	font-family: Calibri;
+	font-size: 6vw;
+	font-weight:200;
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 0;
+	}
+.poppehoone {
+	text-align: center;
+	color: white;
+	font-family: Calibri;
+	font-size: 2vw;
+	font-weight:200;
+	letter-spacing: 0.55vw;
+	margin-bottom: 0;
+	margin-top: 0;
+	}
+.po {
+	position: fixed;
+	left: 53%;
+	bottom: 45%;
+	}
+
+
+.pulk {
+    position:fixed;
+    left: 50%;
+    top:  50%;
+    margin-left: -4.5px;
+    margin-top:  -136px;
+	width: 0.5%;
+	height:auto;
+	
+ }
+
+.po:hover h1 { 
+	-webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #FFFFFF;
+    -webkit-fill-color: #FFFFFF;
+    text-shadow: 1px 0px 20px white;
+	}
+.ko:hover h1 { 
+	-webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #FFFFFF;
+    -webkit-fill-color: #FFFFFF;
+    text-shadow: 1px 0px 20px white;
+}
