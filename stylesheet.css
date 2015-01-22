@@ -123,9 +123,11 @@ body {
 }
 
 .proov {
-	padding: 0 0 0 0;
+	padding-left: 0.4%;
 	}
-
+.proov2 {
+	padding-left: 2.7%;
+}
 ul{
     display: none;
 	color: white;
