@@ -43,6 +43,8 @@ body {
 	text-align: center;
 	margin-bottom: 0;
 	margin-top: 0;
+	text-decoration:none;
+	padding-left: 12%;
 	}
 .oppehoone {
 	text-align: center;
@@ -53,6 +55,8 @@ body {
 	letter-spacing: 0.35vw;
 	margin-bottom: 0;
 	margin-top: 0;
+	padding-left: 13.5%;
+	text-decoration:none;
 	}
 .ko {
 	width: 20%;
@@ -61,6 +65,7 @@ body {
 	bottom: 45%;
 	border-style: solid rgb(0,153,216);
     border-right: solid white;
+	
 	}
 	
 .pollu {
@@ -71,6 +76,7 @@ body {
 	text-align: center;
 	margin-bottom: 0;
 	margin-top: 0;
+	text-decoration: none;
 	}
 .poppehoone {
 	text-align: center;
@@ -81,11 +87,14 @@ body {
 	letter-spacing: 0.55vw;
 	margin-bottom: 0;
 	margin-top: 0;
+	text-decoration: none;
+	padding-left: 2%;
 	}
 .po {
 	position: fixed;
 	left: 53%;
 	bottom: 45%;
+	width: 20%;
 	}
 
 
@@ -100,15 +109,61 @@ body {
 	
  }
 
-.po:hover h1 { 
+.po:hover a { 
 	-webkit-stroke-width: 5.3px;
     -webkit-stroke-color: #FFFFFF;
     -webkit-fill-color: #FFFFFF;
     text-shadow: 1px 0px 20px white;
 	}
-.ko:hover h1 { 
+.ko:hover a { 
 	-webkit-stroke-width: 5.3px;
     -webkit-stroke-color: #FFFFFF;
     -webkit-fill-color: #FFFFFF;
     text-shadow: 1px 0px 20px white;
 }
+
+.proov {
+	padding: 0 0 0 0;
+	}
+
+ul{
+    display: none;
+	color: white;
+	font-family: Calibri;
+	font-size: 1vw;
+	font-weight:200;
+	position:fixed;
+	line-height: 0.5vw;
+	text-align: left;
+	letter-spacing: 0.55vw;
+	-webkit-stroke-width: 5.3px;
+    -webkit-stroke-color: #FFFFFF;
+    -webkit-fill-color: #FFFFFF;
+    text-shadow: 1px 0px 20px white;
+	animation:myfirst 1.5s;
+	-moz-animation:myfirst 1.5s; /* Firefox */
+	-webkit-animation:myfirst 1.5s; /* Safari and Chrome */  
+}
+div:hover ul {
+    display: block;	
+}
+
+@keyframes myfirst
+{
+0%  { opacity: 0;}
+100% {opacity:1;}
+}
+
+ @-moz-keyframes myfirst /* Firefox */
+{
+0%  { opacity: 0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%  { opacity: 0;}
+100% {opacity:1;}
+}
+
+
